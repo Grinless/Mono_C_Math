@@ -31,6 +31,38 @@ namespace C_Math.Functions
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static float Cot(float value) => (float)(Math.Cos(value) / Math.Sin(value));
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Tan(float value) => (float)(Math.Tan(value));
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Atan(float value) => (float)(Math.Atan(value));
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Sqrt(float value) => (float)(Math.Sqrt(value));
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Pow(float value, int power) {
+            float val = value;
+            for (int i = 0; i < power; i++)
+            {
+                val *= value;
+            }
+
+            return val;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Pow(float value, float power)
+        {
+            return MathF.Pow(value, power);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static float Log(float value)
+        {
+            return MathF.Log(value);
+        }
+
         /// <summary>
         /// Limit a value to the passed maximum.
         /// </summary>

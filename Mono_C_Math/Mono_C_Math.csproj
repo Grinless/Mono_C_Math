@@ -8,7 +8,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="C_Math\Polar\" />
     <Folder Include="C_Math\Probability\" />
   </ItemGroup>
 </Project>

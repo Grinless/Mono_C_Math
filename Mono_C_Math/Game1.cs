@@ -7,3 +7,4 @@ namespace C_Math.Collisions { }
 namespace C_Math.Functions { }
 namespace C_Math.Probability { }
 namespace C_Math.Matricies { }
+namespace C_Math.Polar { }
